@@ -93,35 +93,35 @@
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_email"
+        android:src="@drawable/icons8_birthday_48"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="515dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_email"
+        android:src="@drawable/icons8_email_60"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="358dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_email"
+        android:src="@drawable/icons8_gender_50"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="585dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_email"
+        android:src="@drawable/icons8_phone_50"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="438dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_email"
+        android:src="@drawable/icons8_user_64"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="279dp" />
 
