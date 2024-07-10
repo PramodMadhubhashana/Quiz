@@ -13,51 +13,72 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Birthday"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="515dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
 
     <TextView
         android:id="@+id/bday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="542dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
 
     <TextView
         android:id="@+id/phone_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="469dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658" />
 
     <TextView
         android:id="@+id/phone_number_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Phone Number"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="442dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="389dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536" />
 
     <TextView
         android:id="@+id/email_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email Address"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="362dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <LinearLayout
         android:id="@+id/profile_coin_rank"
@@ -68,8 +89,12 @@
         android:marginTop="8dp"
         android:orientation="horizontal"
         android:padding="8dp"
-        tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="125dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217">
 
         <ImageView
             android:id="@+id/profile_coin_icon"
@@ -92,283 +117,144 @@
             android:text="Rank - 06" />
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/icons8_birthday_48"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="515dp" />
+        android:src="@drawable/ic_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/icons8_email_60"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="358dp" />
+        android:src="@drawable/ic_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <ImageView
+        
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/icons8_gender_50"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="585dp" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/icons8_phone_50"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="438dp" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/icons8_user_64"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="279dp" />
+        android:src="@drawable/ic_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
 
     <TextView
         android:id="@+id/profile_head"
         android:layout_width="117dp"
         android:layout_height="18dp"
         android:text="Profile Details"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="29dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
 
     <TextView
         android:id="@+id/Profile_name"
         android:layout_width="100dp"
         android:layout_height="26dp"
         android:text="Hi, ABC"
-        tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="85dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
 
     <TextView
         android:id="@+id/name_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Full Name"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="279dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="306dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
 
     <TextView
         android:id="@+id/Gender_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gender"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="593dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832" />
 
     <TextView
         android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="616dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="85dp"
-        tools:srcCompat="@tools:sample/avatars"
-        />
-
-</androidx.constraintlayout.widget.ConstraintLayout><?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:layout_editor_absoluteX="0dp"
-tools:layout_editor_absoluteY="-7dp">
-
-
-<TextView
-    android:id="@+id/bday_title"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Birthday"
-    tools:layout_editor_absoluteX="97dp"
-    tools:layout_editor_absoluteY="515dp" />
-
-<TextView
-    android:id="@+id/bday"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="TextView"
-    tools:layout_editor_absoluteX="96dp"
-    tools:layout_editor_absoluteY="542dp" />
-
-<TextView
-    android:id="@+id/phone_number"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="TextView"
-    tools:layout_editor_absoluteX="97dp"
-    tools:layout_editor_absoluteY="469dp" />
-
-<TextView
-    android:id="@+id/phone_number_title"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Phone Number"
-    tools:layout_editor_absoluteX="98dp"
-    tools:layout_editor_absoluteY="442dp" />
-
-<TextView
-    android:id="@+id/email"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="TextView"
-    tools:layout_editor_absoluteX="97dp"
-    tools:layout_editor_absoluteY="389dp" />
-
-<TextView
-    android:id="@+id/email_title"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Email Address"
-    tools:layout_editor_absoluteX="98dp"
-    tools:layout_editor_absoluteY="362dp" />
-
-<LinearLayout
-    android:id="@+id/profile_coin_rank"
-    android:layout_width="wrap_content"
-    android:layout_height="60dp"
-    android:layout_gravity="center"
-    android:background="@drawable/green_rounded_corners"
-    android:marginTop="8dp"
-    android:orientation="horizontal"
-    android:padding="8dp"
-    tools:layout_editor_absoluteX="219dp"
-    tools:layout_editor_absoluteY="125dp">
-
-    <ImageView
-        android:id="@+id/profile_coin_icon"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:src="@drawable/coin_icon" />
-
-    <TextView
-        android:id="@+id/profile_coins"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingStart="8dp"
-        android:paddingEnd="16dp"
-        android:text="5021" />
-
-    <TextView
-        android:id="@+id/profile_rank"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:text="Rank - 06" />
-</LinearLayout>
-
-
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:src="@drawable/ic_email"
-    tools:layout_editor_absoluteX="36dp"
-    tools:layout_editor_absoluteY="515dp" />
-
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:src="@drawable/ic_email"
-    tools:layout_editor_absoluteX="36dp"
-    tools:layout_editor_absoluteY="358dp" />
-
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:src="@drawable/ic_email"
-    tools:layout_editor_absoluteX="36dp"
-    tools:layout_editor_absoluteY="585dp" />
-
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:src="@drawable/ic_email"
-    tools:layout_editor_absoluteX="36dp"
-    tools:layout_editor_absoluteY="438dp" />
-
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:src="@drawable/ic_email"
-    tools:layout_editor_absoluteX="36dp"
-    tools:layout_editor_absoluteY="279dp" />
-
-<TextView
-    android:id="@+id/profile_head"
-    android:layout_width="117dp"
-    android:layout_height="18dp"
-    android:text="Profile Details"
-    tools:layout_editor_absoluteX="36dp"
-    tools:layout_editor_absoluteY="29dp" />
-
-<TextView
-    android:id="@+id/Profile_name"
-    android:layout_width="100dp"
-    android:layout_height="26dp"
-    android:text="Hi, ABC"
-    tools:layout_editor_absoluteX="219dp"
-    tools:layout_editor_absoluteY="85dp" />
-
-<TextView
-    android:id="@+id/name_title"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Full Name"
-    tools:layout_editor_absoluteX="98dp"
-    tools:layout_editor_absoluteY="279dp" />
-
-<TextView
-    android:id="@+id/name"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="TextView"
-    tools:layout_editor_absoluteX="97dp"
-    tools:layout_editor_absoluteY="306dp" />
-
-<TextView
-    android:id="@+id/Gender_title"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Gender"
-    tools:layout_editor_absoluteX="94dp"
-    tools:layout_editor_absoluteY="593dp" />
-
-<TextView
-    android:id="@+id/gender"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="TextView"
-    tools:layout_editor_absoluteX="94dp"
-    tools:layout_editor_absoluteY="616dp" />
-
-<ImageView
-    android:id="@+id/imageView4"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    tools:layout_editor_absoluteX="38dp"
-    tools:layout_editor_absoluteY="85dp"
-    tools:srcCompat="@tools:sample/avatars"
-    />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157"
+        tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
