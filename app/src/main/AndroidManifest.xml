@@ -13,16 +13,16 @@
         android:theme="@style/Theme.Quiz"
         tools:targetApi="31">
         <activity
-            android:name=".HomePage"
+            android:name=".activity.HomePage"
             android:exported="false" />
         <activity
-            android:name=".RankScreen"
+            android:name=".activity.RankScreen"
             android:exported="false" />
         <activity
             android:name=".Rank"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
