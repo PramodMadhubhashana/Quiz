@@ -518,7 +518,7 @@
 
                     <ImageView
                         android:id="@+id/imageView22"
-                        android:layout_width="match_parent"
+                        android:layout_width="91dp"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/icons8_home_64" />
                 </LinearLayout>
