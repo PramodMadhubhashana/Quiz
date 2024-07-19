@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.052" />
-
+<!--    pic1-->
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView1"
         android:layout_width="122dp"
@@ -123,7 +123,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-
+    <!--titleTop1Txt-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -154,6 +154,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <TextView
+            android:id="@+id/scoreTop1txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="563"
@@ -162,6 +163,7 @@
             android:textStyle="bold" />
     </LinearLayout>
 
+    <!--    titleTop3Txt-->
     <TextView
         android:id="@+id/textViewthirdname"
         android:layout_width="wrap_content"
@@ -190,7 +192,7 @@
             android:src="@drawable/coin" />
 
         <TextView
-
+            android:id="@+id/scoreTop3Txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -198,7 +200,7 @@
             android:textSize="14dp"
             android:textStyle="bold" />
     </LinearLayout>
-
+<!--    titleTop3Txt-->
     <TextView
         android:id="@+id/textView4"
         android:layout_marginTop="16dp"
@@ -224,6 +226,7 @@
             android:layout_marginTop="5dp"
             android:src="@drawable/coin"/>
         <TextView
+            android:id="@+id/scoreTop2Txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="563"
@@ -255,7 +258,7 @@
         tools:srcCompat="@drawable/crownicon" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/ranklist"
+        android:id="@+id/leaderView"
         android:layout_width="356dp"
         android:layout_height="235dp"
         android:layout_marginStart="10dp"
