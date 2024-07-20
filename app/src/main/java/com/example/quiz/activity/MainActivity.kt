@@ -3,6 +3,7 @@ package com.example.quiz.activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.Window
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -32,6 +33,20 @@ class MainActivity : AppCompatActivity() {
                 intent.putParcelableArrayListExtra("List",ArrayList(questionList()))
                 startActivity(intent)
             }
+        }
+
+        val imageView23: ImageView = findViewById(R.id.imageView23)
+
+        imageView23.setOnClickListener {
+            val intent = Intent(this, RankScreen::class.java)
+            startActivity(intent)
+        }
+
+        val imageView24: ImageView = findViewById(R.id.imageView24)
+
+        imageView24.setOnClickListener {
+            val intent = Intent(this, QuestionActivity::class.java)
+            startActivity(intent)
         }
 
 
