@@ -10,9 +10,9 @@ data class QuestionModel(val id:Int,
                          val answer_3:String?,
                          val answer_4:String?,
                          val correctAnswer:String?,
-                        val score: Int,
-                        val picPath:String?,
-                        val clickedAnswer:String?
+                         val score: Int,
+                         val picPath:String?,
+                         var clickedAnswer:String?
                         ):Parcelable{
     constructor(parcel: Parcel) : this(
         parcel.readInt(),
