@@ -74,7 +74,7 @@ class RankScreen : AppCompatActivity() {
         val batchone : ImageView = findViewById(R.id.imageviewone);
         val batch2nd : ImageView = findViewById(R.id.imageviewtwo);
         val coin: ImageView = findViewById(R.id.imageViewcoin);
-        val crown: ImageView = findViewById(R.id.imageView8);
+        val crown: ImageView = findViewById(R.id.backbtn);
         batch3rd.setImageResource(R.drawable.batchthree);
         batchone.setImageResource(R.drawable.batchone);
         batch2nd.setImageResource(R.drawable.batchtwo);
