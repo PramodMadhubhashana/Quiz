@@ -39,7 +39,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="16dp"
                     android:layout_weight="1"
-                    android:text="Hi, ABC"
+                    android:text="Hi,Masitha"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
