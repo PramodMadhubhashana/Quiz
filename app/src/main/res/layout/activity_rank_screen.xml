@@ -159,11 +159,13 @@
             android:layout_height="wrap_content"
             android:text="563"
             android:layout_marginTop="5dp"
-            android:textSize="14dp"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
     </LinearLayout>
 
-    <!--    titleTop3Txt-->
+
     <TextView
         android:id="@+id/textViewthirdname"
         android:layout_width="wrap_content"
@@ -197,7 +199,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="563"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold" />
     </LinearLayout>
 <!--    titleTop3Txt-->
@@ -231,8 +233,10 @@
             android:layout_height="wrap_content"
             android:text="563"
             android:layout_marginTop="5dp"
-            android:textSize="14dp"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
     </LinearLayout>
 
     <TextView

@@ -73,15 +73,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
-                "Earth",
+                2,
+                "Which planet is known as the Red Planet?",
+                "Venus",
                 "Mars",
-                "Neptune",
-                "Jupiter",
-                "d",
+                "Saturn",
+                "Mercury",
+                "b",
                 5,
-                "q_1",
+                "q_2",
                 null
             )
 
@@ -89,15 +89,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
+                3,
+                "Which planet has the most moons?",
                 "Earth",
                 "Mars",
-                "Neptune",
                 "Jupiter",
-                "d",
+                "Neptune",
+                "c",
                 5,
-                "q_1",
+                "q_3",
                 null
             )
 
@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
+                4,
                 "Which planet is the largest planet in the solar system?",
                 "Earth",
                 "Mars",
@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
                 "Jupiter",
                 "d",
                 5,
-                "q_1",
+                "q_4",
                 null
             )
 
@@ -121,15 +121,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
-                "Earth",
-                "Mars",
-                "Neptune",
-                "Jupiter",
-                "d",
                 5,
-                "q_1",
+                "Which planet is known for its rings?",
+                "Mars",
+                "Saturn",
+                "Venus",
+                "Jupiter",
+                "b",
+                5,
+                "q_5",
                 null
             )
 
@@ -137,15 +137,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
-                "Earth",
+                6,
+                "Which planet is known as the Earth's twin?",
                 "Mars",
-                "Neptune",
+                "Venus",
                 "Jupiter",
-                "d",
+                "Mercury",
+                "b",
                 5,
-                "q_1",
+                "q_6",
                 null
             )
 
@@ -153,15 +153,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
+                7,
+                "Which is the smallest planet in the solar system?",
                 "Earth",
                 "Mars",
-                "Neptune",
-                "Jupiter",
+                "Venus",
+                "Mercury",
                 "d",
                 5,
-                "q_1",
+                "q_7",
                 null
             )
 
@@ -169,15 +169,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
+                8,
+                "Which planet is known as the Blue Planet?",
+                "Neptune",
+                "Uranus",
                 "Earth",
                 "Mars",
-                "Neptune",
-                "Jupiter",
-                "d",
+                "c",
                 5,
-                "q_1",
+                "q_8",
                 null
             )
 
@@ -185,15 +185,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
-                "Earth",
+                9,
+                "Which planet has the shortest day?",
                 "Mars",
-                "Neptune",
+                "Venus",
                 "Jupiter",
-                "d",
+                "Saturn",
+                "c",
                 5,
-                "q_1",
+                "q_9",
                 null
             )
 
@@ -201,15 +201,15 @@ class MainActivity : AppCompatActivity() {
         )
         questions.add(
             QuestionModel(
-                1,
-                "Which planet is the largest planet in the solar system?",
-                "Earth",
+                10,
+                "Which planet is known for having a Great Red Spot?",
                 "Mars",
-                "Neptune",
                 "Jupiter",
-                "d",
+                "Saturn",
+                "Neptune",
+                "b",
                 5,
-                "q_1",
+                "q_10",
                 null
             )
 
